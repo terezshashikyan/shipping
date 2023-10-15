@@ -1,0 +1,53 @@
+
+.sideBar__button {
+    background-color: transparent;
+    border: none;
+}    
+
+.sideBar__item {
+  width: 214px;
+height: 35px;
+text-align: end;
+margin: 16px;
+}
+    .sideBar__itemLink {
+        color: #FFFFFE;
+        text-decoration: none;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.024px;
+       }
+
+       .sideBar__itemLink:hover {
+        text-decoration: solid underline 3px;
+}
+
+
+.sidebar__menu {
+    width: 246px;
+    height: 100%;
+    position: fixed;
+    top: 50px;
+    right: -250px;
+    background-color: #094067;
+    color: #fff;
+    transition: left 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+
+  }
+  
+  .sidebar__menu.open {
+    right: 0;
+  }
+  
+  
+  
+ 
+  
+  

@@ -1,0 +1,75 @@
+.cars__heading {
+color: #094067;
+font-family: Roboto;
+font-size: 48px;
+font-weight: 400;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+/* Phone */
+@media only screen and (max-width:320px) {
+font-size: 24px;
+};
+/* Tablet */
+@media only screen and (min-width:321px) and (max-width:768px){
+font-size:34px ;
+};
+}
+
+.cars__container {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    overflow: scroll;
+}
+
+.cars__container::-webkit-scrollbar {
+    display: none;
+  }
+
+.car {
+    width: 200px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+    flex-shrink: 0;
+} 
+
+.car__content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.car__name {
+    color: #094067;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.024px;
+    }
+    
+    .car__viewDetailsLink {
+    text-decoration: none;
+    color: var(--Primary, #3DA9FC);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.024px;
+    }
+
+
+
+
+
