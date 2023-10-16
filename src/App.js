@@ -4,13 +4,15 @@ import Cars from './Components/Cars';
 import SoldoutCars from './Components/SoldoutCars';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
-import SideBar from './Components/SideBar';
+import Auctions from './Components/Auctions';
+import Carousel from './Components/Carousel';
 
 function App() {
   return (
     <div className="App">
       <Header/>
-      <SideBar/>
+      <Carousel/>
+      <Auctions/> 
       <Cars/>
       <SoldoutCars/>
       <Footer/>
