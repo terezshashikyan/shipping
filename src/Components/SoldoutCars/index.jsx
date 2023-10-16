@@ -2,7 +2,7 @@ import './style.css';
 import img1 from './img1.png';
 import img2 from './img2.png';
 import img3 from './img3.png';
-import soldout from './soldoutBanner.png';
+import soldout from '../../Assets/soldoutBanner.png';
 
 
 const SOLDOUT_CARS = [
