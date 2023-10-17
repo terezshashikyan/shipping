@@ -14,10 +14,10 @@ function Header() {
                 {/* for desktop view only  */}
                 <div className="header__items">
                   <div className="header__home">
-                   <a className = "header__itemLink" href="#home">Home</a> 
+                   <a className = "header__itemLink" href="/">Home</a> 
                   </div>
                   <div className="header__auctions">
-                   <a className = "header__itemLink" href="#auctions">Auctions</a> 
+                   <a className = "header__itemLink" href="/auctions">Auctions</a> 
                    <button className = 'header__arrow'><img src= {arrow} alt="arrow" /></button>
                   </div>
                   <div className="header__login">

@@ -24,7 +24,7 @@
 }
 
 .carousel__arrows {
-    width: 100%;
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;

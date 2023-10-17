@@ -1,0 +1,29 @@
+.auction__header {
+    padding: 16px;
+    background-color: #094067;
+    border-radius: 16px 16px 0px 0px;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+.auction__title {
+color:#FFF;
+font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.085px;
+}
+
+.auction__details {
+display: flex;
+gap: 16px;
+color:#FFF;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.03px;
+}
