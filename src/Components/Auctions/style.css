@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    max-width: 100%;
+
 }
 
 .auctions__heading {
@@ -32,7 +32,7 @@
 }
 
 .auctionsTable-header {
-    height: 40px;
+    padding: 10px;
     display: grid; 
     border: 1px solid #094067;
     grid-template-columns: 25% 32% 8% 35% ;
@@ -49,16 +49,16 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.024px;   
-    margin: 10px;
+   
 }
 
 .auctions__grid-body {
     display: grid; 
     grid-template-columns: 25% 32% 8% 35% ;
-    border: 1px solid rgba(95, 108, 123, 0.20);
+    border: 1px solid rgba(95, 108, 123, 0.20); 
 }
 
-.auctions__container:last-child {
+  .auctions__grid-body:last-child {
     border-radius: 0px 0px 16px 16px;
   }
 
@@ -70,7 +70,7 @@
     font-weight: 500;
     line-height: normal;
     letter-spacing: 0.014px;
-    margin: 8px;
+    padding: 8px;
 }
 
 .auctions__lastElem {
@@ -81,7 +81,7 @@
     align-items: start;
     justify-content: start;
     text-align: center;
-    padding: 0px;
+   
 }
 .auctions__button {
     font-family: Roboto;

@@ -59,7 +59,7 @@ const SOLDOUT_CARS = [
 
 function SoldoutCars() {
     return (
-        <section className="soldoutCars">
+        <section className="container soldoutCars">
             <div className="soldoutCars__heading">
                 <h3>Sold Out</h3>
             </div>

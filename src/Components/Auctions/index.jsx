@@ -22,7 +22,7 @@ const AUCTIONS = [
 
 function Auctions() {
     return (
-        <section className = 'auctions'>
+        <section className = 'container auctions'>
             <div className="auctions__heading">
                 <h3>Today's Auctions</h3>
             </div>

@@ -14,3 +14,21 @@
     height: 277px ;
     };
 }
+
+.carousel__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carousel__arrows {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carousel__dots {
+    margin: 16px;
+}

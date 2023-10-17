@@ -8,7 +8,7 @@ import './style.css';
 function Header() {
     return (
         <header className="header">
-            <section className="header__container">
+            <div className="container header__container">
                 <img className = 'header__logo' src={logo} alt="logo" />
 
                 {/* for desktop view only  */}
@@ -44,7 +44,7 @@ function Header() {
                 <div className="header__menu">
                   <SideBar/>
                 </div>
-            </section>
+            </div>
         </header>
     )
 }

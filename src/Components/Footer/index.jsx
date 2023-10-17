@@ -5,8 +5,8 @@ import Linkedin from '../../Assets/Linkedin.png';
 
 function Footer() {
     return (
-        <div className="footer">
-            <div className="footer__container">
+        <footer className="footer">
+            <div className="container footer__container">
                 <div className='footer__links'>
                   <div className="footer__socialMediaLinks">
                     <a className ='footer__SocialMediaLink' href="#Instagram"><img src= {Instagram} alt="Instagram"/></a>
@@ -21,7 +21,7 @@ function Footer() {
                   <span className = 'footer__content2'>Powered By ShellLogix</span>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 };
 

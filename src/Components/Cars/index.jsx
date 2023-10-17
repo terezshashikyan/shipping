@@ -51,7 +51,7 @@ const CARS = [
 
 function Cars() {
     return (
-        <section className="cars">
+        <section className="container cars">
             <div className="cars__heading">
                 <h3>Popular Cars</h3>
             </div>
