@@ -4,6 +4,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 17px;
+position: static;
+   
 }
 
 .header__container {
