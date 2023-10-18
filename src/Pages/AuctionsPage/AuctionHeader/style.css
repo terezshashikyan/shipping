@@ -2,8 +2,7 @@
     padding: 16px;
     background-color: #094067;
     border-radius: 16px 16px 0px 0px;
-    margin-top:8px;
-    margin-bottom:8px;
+    margin-top:8px 0 8px 0;
 }
 
 .auction__title {
@@ -26,4 +25,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.03px;
+@media only screen and (max-width:999px) {
+    display: none;
+}
 }

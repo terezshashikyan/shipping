@@ -1,0 +1,28 @@
+.AuctionInfo__files_header {
+    border-radius: 16px 16px 0px 0px;
+    background: #094067;
+    color: #FFF;
+    /* Subtitle 1 / Roboto / Regular / 16 */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.024px;
+    padding: 8px;
+    }
+    
+    .AuctionInfo__files_items {
+    display:flex;
+    gap: 16px;
+    }
+    
+    .AuctionInfo__files_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 16px;
+    background:#FFF;
+    box-shadow: 0px 4px 38px 0px rgba(9, 64, 103, 0.06);
+    }

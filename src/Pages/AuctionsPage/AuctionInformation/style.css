@@ -1,0 +1,43 @@
+.AuctionInfo__buttons {
+    display: flex;
+}
+.AuctionInfo__button {
+border-radius: 16px 16px 0px 0px;
+background:#094067;
+box-shadow: 0px 4px 38px 0px rgba(9, 64, 103, 0.16);
+color: white;
+padding: 8px;
+width: 50%;
+/* Subtitle 1 / Roboto / Regular / 16 */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.024px;
+}
+
+.AuctionInfo__lot {
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.AuctionInfo__lot_item {
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 2px 38px 0px rgba(9, 64, 103, 0.12);
+padding: 8px;
+/* Body 2 / Roboto / Regular / 14 */
+color:#5F6C7B;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.035px;
+}

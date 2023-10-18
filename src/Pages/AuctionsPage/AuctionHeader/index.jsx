@@ -2,7 +2,7 @@ import './style.css';
 
 function AuctionHeader() {
     return (
-        <div className = 'container auction__header'>
+        <div className = 'auction__header'>
             <h1 className="auction__title">
             2014 - BMW 3er Touring
             </h1>

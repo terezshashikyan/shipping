@@ -1,0 +1,38 @@
+.AuctionSaleInfo__header {
+border-radius: 16px 16px 0px 0px;
+background: #094067;
+color: #FFF;
+/* Subtitle 1 / Roboto / Regular / 16 */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.024px;
+padding: 8px;
+}
+
+.AuctionSaleInfo__details{
+display: flex;
+flex-direction: column;
+gap: 12px;
+}
+
+.AuctionSaleInfo__details_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 2px 38px 0px rgba(9, 64, 103, 0.12);
+    padding: 8px;
+    /* Body 2 / Roboto / Regular / 14 */
+    color:#5F6C7B;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.035px;
+    }
