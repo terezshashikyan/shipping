@@ -11,13 +11,23 @@ function AuctionsPage() {
     return (
         <section className="AuctionPage">
         <div className="container">
-           <AuctionNavbar/>
-           <AuctionHeader/>
-           {/* <AuctionGallery/> */}
-           <AuctionInformation/>
-           {/* <AuctionBidInformation/> */}
-           <AuctionSaleInformation/> 
-           <AuctionFiles/>
+          <section className="AuctionPage__header">
+             <AuctionNavbar/>
+             <AuctionHeader/>
+           </section>
+           <section className="AuctionPage__body">
+             <div className="AuctionPage__body_section1">
+               <AuctionGallery/> 
+             </div>
+             <div className="AuctionPage__body_section2">
+               <AuctionInformation/>
+               <AuctionFiles/>
+             </div>
+             <div className="AuctionPage__body_section3">
+               <AuctionBidInformation/>
+               <AuctionSaleInformation/> 
+             </div>
+           </section>
         </div>
         </section>
     )

@@ -6,13 +6,10 @@
 }
 
 .auctions__gallery-img {
-    @media only screen and (max-width:999px) {
     width: 100%;
     height: 100%; 
     object-fit: cover;
-    display:block;
-        };
-    
+    display:block; 
 }
 
 .auction__gallery_item, .auctions__gallery-img{
@@ -28,7 +25,7 @@
 }
 
 .auction__gallery_item_2, .auction__gallery_item_3, .auction__gallery_item_4, .auction__gallery_item_5 {
-    @media only screen and (max-width:999px) {
+    @media only screen and (max-width:768px) {
         display: none;
         };
 }

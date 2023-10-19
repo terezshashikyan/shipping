@@ -1,9 +1,14 @@
 .AuctionInfo {
     padding: 8px 0 8px 0;
+    display: flex;
+flex-direction: column;
+justify-content: stretch;
+gap: 12px;
 }
 
 .AuctionInfo__buttons {
     display: flex;
+    justify-content: stretch;
 }
 .AuctionInfo__button {
 border-radius: 16px 16px 0px 0px;

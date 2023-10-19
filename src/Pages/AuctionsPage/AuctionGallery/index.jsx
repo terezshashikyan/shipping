@@ -11,7 +11,7 @@ function AuctionGallery() {
     return (
         <section className = 'auction__gallery'>
           <picture className = 'auction__gallery_item auction__gallery_item_1'>
-          <source media="(max-width:999px)" srcset={bmw1_tablet}/>
+          <source media="(max-width:768px)" srcset={bmw1_tablet}/>
           <source media="(max-width: 321px)" srcset={bmw1_mobile}/>
           <img className = 'auctions__gallery-img' src={bmw1} alt="bmw" />
           </picture>

@@ -83,7 +83,7 @@ margin-left: -5px;
     }
 
 .AuctionNavbar__buttons_mainButtons_auctionName, .AuctionNavbar__buttons_mainButtons_home, .AuctionNavbar__buttons_mainButtons_calendar {
-    @media only screen and (max-width:999px) {
+    @media only screen and (max-width:768px) {
         display: none;
     }
 }
