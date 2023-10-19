@@ -15,7 +15,7 @@ function AuctionGallery() {
           <source media="(max-width: 321px)" srcset={bmw1_mobile}/>
           <img className = 'auctions__gallery-img' src={bmw1} alt="bmw" />
           </picture>
-          {/* <figure className = 'auction__gallery_item auction__gallery_item_2'>
+          <figure className = 'auction__gallery_item auction__gallery_item_2'>
             <img src={bmw2} className = 'auctions__gallery-img' alt="bmw" />
           </figure>
           <figure className = 'auction__gallery_item auction__gallery_item_3'>
@@ -26,7 +26,7 @@ function AuctionGallery() {
           </figure>
           <figure className = 'auction__gallery_item auction__gallery_item_5'>
             <img src={bmw5} className = 'auctions__gallery-img' alt="bmw" />
-          </figure> */}
+          </figure>
         </section>
     )
 }
