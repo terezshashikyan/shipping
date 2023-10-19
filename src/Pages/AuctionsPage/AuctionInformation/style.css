@@ -60,5 +60,8 @@ letter-spacing: 0.035px;
     text-align: left;
     color: #094067;
     justify-content: center;
+    @media only screen and (min-width: 769px) {
+        display: none;
+    }
     
 }

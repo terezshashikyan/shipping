@@ -25,7 +25,7 @@
     .AuctionInfo__files_details {
         display:flex;
         flex-direction: row;
-        gap: 16px;
+        gap: 8px;
         padding: 8px 0 8px 0;
         }
     

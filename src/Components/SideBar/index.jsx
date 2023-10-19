@@ -16,7 +16,7 @@ function SideBar() {
       <>
         <button onClick={toggleSidebar} className='sideBar__button'><img src={humburger} alt="menu" /></button>
         
-        {/* <div className={`sidebar__menu ${isOpen ? 'open' : ''}`}>
+        <div className={`sidebar__menu ${isOpen ? 'open' : ''}`}>
             <div className="sideBar__item">
                <a className = "sideBar__itemLink" href="#home">Home</a> 
             </div>
@@ -41,7 +41,7 @@ function SideBar() {
             <div className="sideBar__item">
                  <a className = "sideBar__itemLink" href="#contacus">Contact Us</a> 
             </div>
-         </div> */}
+         </div>
         </>
     )
 }

@@ -25,7 +25,7 @@
 }
 
 .auction__gallery_item_2, .auction__gallery_item_3, .auction__gallery_item_4, .auction__gallery_item_5 {
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width:320px) {
         display: none;
         };
 }
