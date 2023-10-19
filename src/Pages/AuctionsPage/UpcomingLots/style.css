@@ -1,0 +1,62 @@
+.upcoming_lots{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px 0 8px 0;
+}
+.lot {
+    display: flex;
+    gap: 8px;
+    border-radius: 8px;
+    background: #FFF;
+    /* upcoming shdw */
+    box-shadow: 0px 4px 38px 0px rgba(9, 64, 103, 0.12);
+    padding: 8px;
+}
+
+.lot__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.lot__content_header {
+color: var(--Sec, #094067);
+/* Subtitle 1 / Roboto / Bold / 16 */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.024px;
+}
+
+.lot__content_p {
+color: var(--Tert, #5F6C7B);
+/* Body 2 / Roboto / Regular / 14 */
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.035px;
+white-space: nowrap;
+}
+
+.lot__button {
+color: #FFF;
+border-radius: 8px;
+background:#094067;
+text-align: center;
+border: none;
+/* Caption / Roboto / Regular / 12 */
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.048px;
+width: 100%;
+}
+
+

@@ -4,13 +4,16 @@ import AuctionGallery from './AuctionGallery';
 import AuctionInformation from './AuctionInformation';
 import AuctionBidInformation from './AuctionBidInformation';
 import AuctionSaleInformation from "./AuctionSaleInformation";
+import AuctionLiveNowHeader from "./AuctionLiveNowHeader";
 import AuctionFiles from "./AuctionFiles";
+import UpcomingLots from "./UpcomingLots";
 import './style.css';
 
 function AuctionsPage() {
     return (
         <section className="AuctionPage">
         <div className="container">
+            {/* <AuctionLiveNowHeader/> */}
           <section className="AuctionPage__header">
              <AuctionNavbar/>
              <AuctionHeader/>
@@ -27,6 +30,7 @@ function AuctionsPage() {
                <AuctionBidInformation/>
                <AuctionSaleInformation/> 
              </div>
+             {/* <UpcomingLots/> */}
            </section>
         </div>
         </section>

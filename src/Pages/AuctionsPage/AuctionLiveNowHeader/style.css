@@ -1,0 +1,22 @@
+.AuctionLiveNowHeader > h1 {
+color: #4CAF50;
+/* H4 / Roboto / Regular / 34 */
+font-family: Roboto;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.085px;
+}
+
+.AuctionLiveNowHeader > p {
+ color:#5F6C7B;
+/* H5 / Roboto / Regular / 24 */
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+justify-content: space-between;
+}
