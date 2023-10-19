@@ -4,6 +4,7 @@ import AuctionGallery from './AuctionGallery';
 import AuctionInformation from './AuctionInformation';
 import AuctionBidInformation from './AuctionBidInformation';
 import AuctionSaleInformation from "./AuctionSaleInformation";
+import AuctionFiles from "./AuctionFiles";
 import './style.css';
 
 function AuctionsPage() {
@@ -12,10 +13,11 @@ function AuctionsPage() {
         <div className="container">
            <AuctionNavbar/>
            <AuctionHeader/>
-           <AuctionGallery/>
+           {/* <AuctionGallery/> */}
            <AuctionInformation/>
-           <AuctionBidInformation/>
+           {/* <AuctionBidInformation/> */}
            <AuctionSaleInformation/> 
+           <AuctionFiles/>
         </div>
         </section>
     )

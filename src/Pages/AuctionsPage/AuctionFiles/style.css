@@ -1,3 +1,9 @@
+.AuctionInfo__files {
+    padding: 8px 0 8px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    }
 .AuctionInfo__files_header {
     border-radius: 16px 16px 0px 0px;
     background: #094067;
@@ -12,10 +18,16 @@
     padding: 8px;
     }
     
-    .AuctionInfo__files_items {
-    display:flex;
-    gap: 16px;
+    .AuctionInfo__files {
+    padding: 8px 0 8px 0;
     }
+
+    .AuctionInfo__files_details {
+        display:flex;
+        flex-direction: row;
+        gap: 16px;
+        padding: 8px 0 8px 0;
+        }
     
     .AuctionInfo__files_item {
     display: flex;

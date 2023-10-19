@@ -74,6 +74,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.048px;
+margin-left: -5px;
 }
 
 .AuctionNavbar__buttons_mainButtons_auctionName {

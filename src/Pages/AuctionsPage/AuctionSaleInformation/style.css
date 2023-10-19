@@ -1,3 +1,10 @@
+.AuctionSaleInfo{
+display: flex;
+flex-direction: column;
+gap: 12px;
+padding: 8px 0 8px 0;
+}
+
 .AuctionSaleInfo__header {
 border-radius: 16px 16px 0px 0px;
 background: #094067;
@@ -12,17 +19,10 @@ letter-spacing: 0.024px;
 padding: 8px;
 }
 
-.AuctionSaleInfo__details{
-display: flex;
-flex-direction: column;
-gap: 12px;
-}
-
-.AuctionSaleInfo__details_item {
+.AuctionSaleInfo__details {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
     border-radius: 8px;
     background: #FFF;
     box-shadow: 0px 2px 38px 0px rgba(9, 64, 103, 0.12);
@@ -35,4 +35,8 @@ gap: 12px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.035px;
+    }
+
+    .AuctionSaleInfo__details_timeLeft span:last-child {
+        color: #F44336;
     }

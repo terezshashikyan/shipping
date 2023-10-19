@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import humburger from '../../Assets/Hamburger.png';
+import humburger from '../../Assets/hamburger.png';
 import close from '../../Assets/close.png';
 import arrow from '../../Assets/arrow.png';
 import usa from '../../Assets/us.png';

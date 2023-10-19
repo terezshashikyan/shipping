@@ -1,4 +1,8 @@
 import './style.css';
+import pdf from '../../../Assets/pdf_icon.png';
+import open from '../../../Assets/open_icon.png';
+import img from '../../../Assets/img_icon.png';
+
 
 function AuctionFiles() {
     return (
@@ -6,7 +10,7 @@ function AuctionFiles() {
                 <div className="AuctionInfo__files_header">
                     Files
                 </div>
-                <div className="AuctionInfo__files_items">
+                <div className="AuctionInfo__files_details">
                 <a className="AuctionInfo__files_item">
                   <img src= {pdf} alt="auction file" />
                 </a>
@@ -20,3 +24,5 @@ function AuctionFiles() {
             </div>
     )
 }
+
+export default AuctionFiles;

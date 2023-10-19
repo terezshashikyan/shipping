@@ -1,7 +1,5 @@
 import './style.css';
-import pdf from '../../../Assets/pdf_icon.png';
-import open from '../../../Assets/open_icon.png';
-import img from '../../../Assets/img_icon.png';
+
 
 function AuctionInformation() {
     return (
@@ -20,6 +18,7 @@ function AuctionInformation() {
                 <div className="AuctionInfo__lot_item AuctionInfo__lot_item_drive"><span>Drive: </span><span>Front - wheel Drive</span></div>
                 <div className="AuctionInfo__lot_item AuctionInfo__lot_item_fuel"><span>Fuel: </span><span>Gas</span></div>
                 <div className="AuctionInfo__lot_item AuctionInfo__lot_item_keys"><span>Keys: </span><span>Yes</span></div>
+                <div role = 'button' className="AuctionInfo__lot_item AuctionInfo__lot_item_viewLessButton"> ^ View Less</div>
             </div>
         </div>
     )

@@ -1,3 +1,7 @@
+.AuctionInfo {
+    padding: 8px 0 8px 0;
+}
+
 .AuctionInfo__buttons {
     display: flex;
 }
@@ -27,7 +31,6 @@ gap: 12px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-width: 100%;
 border-radius: 8px;
 background: #FFF;
 box-shadow: 0px 2px 38px 0px rgba(9, 64, 103, 0.12);
@@ -40,4 +43,16 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.035px;
+}
+
+.AuctionInfo__lot_item_viewLessButton {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0.0015em;
+    text-align: left;
+    color: #094067;
+    justify-content: center;
+    
 }
