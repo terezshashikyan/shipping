@@ -1,27 +1,40 @@
 .upcoming_lots{
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    padding: 8px 0 8px 0;
+display: flex;
+flex-direction: column;
+gap: 8px;
+padding: 8px 0 8px 0;
+@media only screen and (max-width:768px){
+    display: none;
+    }
 }
 .lot {
-    display: flex;
-    gap: 8px;
-    border-radius: 8px;
-    background: #FFF;
-    /* upcoming shdw */
-    box-shadow: 0px 4px 38px 0px rgba(9, 64, 103, 0.12);
-    padding: 8px;
+display: flex;
+border-radius: 8px;
+background: #FFF;
+/* upcoming shdw */
+box-shadow: 0px 4px 38px 0px rgba(9, 64, 103, 0.12);
+}
+
+.lot__img_container {
+display: flex;
+flex-direction: column;
+align-items: stretch;
+justify-content: end;
+background-repeat: no-repeat;
+background-size: cover;
+width: auto;
+height: auto;
 }
 
 .lot__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
+display: flex;
+flex-direction: column;
+justify-content: stretch;
+padding: 8px;
 }
 
 .lot__content_header {
-color: var(--Sec, #094067);
+color: #094067;
 /* Subtitle 1 / Roboto / Bold / 16 */
 font-family: Roboto;
 font-size: 16px;
@@ -40,7 +53,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.035px;
-white-space: nowrap;
+
 }
 
 .lot__button {
@@ -56,7 +69,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: 0.048px;
-width: 100%;
+padding: 2px 16px 2px 16px;
 }
 
 

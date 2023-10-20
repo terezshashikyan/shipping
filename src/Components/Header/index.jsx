@@ -20,6 +20,9 @@ function Header() {
                    <a className = "header__itemLink" href="/auctions">Auctions</a> 
                    <button className = 'header__arrow'><img src= {arrow} alt="arrow" /></button>
                   </div>
+                  <div className="header__livenow">
+                   <a className = "header__itemLink" href="/livenow">Live Now</a> 
+                  </div>
                   <div className="header__login">
                    <a className = "header__itemLink" href="#login">Log In</a> 
                   </div>

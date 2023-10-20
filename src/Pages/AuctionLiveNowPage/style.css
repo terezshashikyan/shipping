@@ -1,0 +1,45 @@
+.AuctionLiveNowPage {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.AuctionPage__body_section2_div1 > .AuctionInfo > .AuctionInfo__buttons {
+    display: none;
+}
+
+.AuctionLiveNowPage > .container > .AuctionPage__header > .AuctionNavbar >  .AuctionNavbar__buttons_addtowatchlist {
+    display: none;
+}
+
+.AuctionLiveNowPage > .container > .AuctionPage__header > .AuctionNavbar >  .AuctionNavbar__buttons > .AuctionNavbar__buttons_prevnext{
+    display: none;
+}
+
+.AuctionPage__body {
+    display: flex;
+    gap: 12px;
+    align-items: stretch;
+    justify-content: stretch;
+    @media only screen and (max-width:768px){
+        flex-direction: column;
+    }
+}
+
+.AuctionPage__body_section1, .AuctionPage__body_section2, .AuctionPage__body_section3 {
+    margin: 0; 
+    padding: 0;
+    border: 0;
+    width: 100%;  
+}
+
+.AuctionPage__body_section2_div1 {
+
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    @media only screen and (max-width:320px){
+        flex-direction: column;
+    }
+}

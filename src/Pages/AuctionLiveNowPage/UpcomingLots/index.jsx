@@ -4,28 +4,28 @@ import mercedes from '../../../Assets/lot_img.png';
 const LOTS = [
     {
        img: mercedes,
-       name: '2013 - MercedesBenz GLC',
+       name: '2013 - Mercedes Benz GLC',
        number: 12345678,
        location: 'Georgia',
        currentBid: '$3.400',
     },
     {
         img: mercedes,
-        name: '2013 - MercedesBenz GLC',
+        name: '2013 - Mercedes Benz GLC',
         number: 12345678,
         location: 'Georgia',
         currentBid: '$3.400',
      },
      {
         img: mercedes,
-        name: '2013 - MercedesBenz GLC',
+        name: '2013 - Mercedes Benz GLC',
         number: 12345678,
         location: 'Georgia',
         currentBid: '$3.400',
      },
      {
         img: mercedes,
-        name: '2013 - MercedesBenz GLC',
+        name: '2013 - Mercedes Benz GLC',
         number: 12345678,
         location: 'Georgia',
         currentBid: '$3.400',
@@ -38,8 +38,10 @@ function UpcomingLots() {
           {LOTS.map((lot) => {
             return (
                 <section className='lot'>
-                    <div>
-                    <img className="lot__img" src = {lot.img}/>
+                    <div className='lot__img_container' style={{
+      backgroundImage: `url(${lot.img})`,
+    }}>
+                    
                     <button className='lot__button'>Next</button> 
                     </div>
                     <div className="lot__content">
