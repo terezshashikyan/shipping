@@ -9,6 +9,12 @@
     display: none;
 }
 
+.AuctionPage__body_section2_div1 > .AuctionInfo {
+    @media only screen and (max-width:320px){
+        display: none;
+    }
+}
+
 .AuctionLiveNowPage > .container > .AuctionPage__header > .AuctionNavbar >  .AuctionNavbar__buttons_addtowatchlist {
     display: none;
 }
